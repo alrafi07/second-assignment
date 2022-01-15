@@ -48,8 +48,32 @@ main{
     display: flex;
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     border-top: 1px solid rgba(128, 128, 128, 0.158);
     border-bottom: 1px solid rgba(128, 128, 128, 0.158);
     justify-content: space-evenly;
+}
+.mtitle{
+    text-align: center;
+}
+.fa-star{
+    color: #FFC014;
+}
+.item>img{
+    border-radius: 5px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-bottom: 40px;
+}
+.item{
+    width: 300px;
+    height: 484px;
+    border: 1px solid rgba(245, 245, 245, 0.952);
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
 }
