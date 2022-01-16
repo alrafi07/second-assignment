@@ -179,9 +179,12 @@ textarea{
     .input{
         width: 320px;
         height: 20px;
+        justify-content: center;
+        align-items: center;
     }
     .footer{
-        width: 100%;
+        width: 688px;
+        
     }
     
    
